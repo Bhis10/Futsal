@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar.navbar-expand{
+	background-color:lightgrey
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.carousel-item{
+height: 30rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.showcase h2{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.showcase p{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+;
+  
+}
+.imgbx{
+  max-width:50px;
+  float:right;
+  padding-right: 40%;
   }
+
+  .Container{
+  position: absolute;
+  
+}
+ .containerpic{
+  
+  width: 600px;
+  height: 500px;
+  padding-right: 30px;
+  
+}
+.log{
+  width: 120%;
+  height: 32rem;
+}
+.jumbo{
+	height: fit-content;
+	margin-bottom: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#footer {
+	
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  
+}
+#footer .footer {
+	min-height: 200px;
+	flex-direction: column;
+	padding-top: 40px;
+	padding-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+#footer .social-icon {
+	display: flex;
+	justify-content: space-around;
+    margin-bottom: 30px;
+  
+}
+#footer .social-item {
+	height: 50px;
+	width: 50px;
+	margin: 0 2px;
+}
+#footer .social-item i {
+	color: white;
+	transition: .3s ease filter;
+}
+#footer .social-item:hover a {
+	filter: grayscale(1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social-icon{
+	font-size: 3rem;
+	color:white;
+}
+
+.butt{
+	background-color: #29323c;
+	border-color: #29323c;
 }
